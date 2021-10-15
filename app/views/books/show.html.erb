@@ -1,5 +1,5 @@
 <body>
-  <p id="notice"></p>
+  <p id="notice"><%= flash[:notice] %></p>
   <p>
     <strong>Title:</strong>
     <%= @book.title %>
@@ -9,6 +9,6 @@
     <%= @book.body %>
   </p>
   <a class="edit" href="/books">Edit</a>
-    |
+  |
   <a class="back" href="/books">Back</a>
 </body>

@@ -47,3 +47,11 @@ div.field, div.actions{
 label{
   display: block;
 }
+
+a{
+  color: #000;
+}
+
+#notice{
+  color: green;
+}
